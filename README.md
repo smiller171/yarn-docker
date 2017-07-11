@@ -36,7 +36,7 @@ These dependencies are versioned and installed based on semantic versioning (sem
 
 ```bash
 # This mounts your entire filesystem in the container, and sets the working directory to the current dir, so the command will work no matter where you run it from
-alias yarn='docker run -i -v /:/usr/src/root -w "/usr/src/root$PWD"  scottmiller171:yarn'
+alias yarn='docker run -i -v /:/usr/src/root -w "/usr/src/root$PWD"  scottmiller171/yarn'
 ```
 
 ## use yarn as normal
