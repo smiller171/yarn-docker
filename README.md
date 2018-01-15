@@ -1,6 +1,8 @@
+[![Docker Automated build](https://img.shields.io/docker/automated/scottmiller171/yarn.svg)]()
+[![Build Status](https://img.shields.io/docker/build/scottmiller171/yarn.svg)]()
 # Supported tags and respective `Dockerfile` links
 
-Tags should generally match those from the official node image. Please file an issue if you notice I've fallen behind. `latest` will always be up-to-date
+Tags should generally match those from the official node image. New builds run when node is updated. Please file an issue if you notice I've fallen behind. `latest` will always be up-to-date
 
 - [`latest` (*master/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/master/Dockerfile)
 -	[`9` (*9/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/9/Dockerfile)
