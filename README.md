@@ -3,9 +3,10 @@
 Tags should generally match those from the official node image. Please file an issue if you notice I've fallen behind. `latest` will always be up-to-date
 
 - [`latest` (*master/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/master/Dockerfile)
--	[`8.1.3`, `8.1`, `8` (*8.1/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/8.1/Dockerfile)
--	[`6.11.0`, `6.11`, `6`, `boron` (*6.11/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/6.11/Dockerfile)
--	[`4.8.3`, `4.8`, `4`, `argon` (*4.8/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/4.8/Dockerfile)
+-	[`9` (*9/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/9/Dockerfile)
+-	[`8`, `carbon` (*8/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/8/Dockerfile)
+-	[`6`, `boron` (*6.11/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/6/Dockerfile)
+-	[`4`, `argon` (*4.8/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/4/Dockerfile)
 
 # Quick reference
 
