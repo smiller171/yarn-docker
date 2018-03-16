@@ -96,8 +96,7 @@ The `yarn` images come in many flavors, each designed for a specific use case. A
 
 ## `yarn:<version>`
 
-This tag is based off of `node:slim`. This image does not contain the common packages contained in the default tag and only contains the minimal packages needed to run `node`. I've chosen to do this because this package is designed primarily for CLI use.
-
+This tag is now based off of `node` instead of `node:slim` since many people will have `node` cached.  
 # License
 
 View [license information](https://github.com/yarnpkg/yarn/blob/master/LICENSE) for the software contained in this image.
