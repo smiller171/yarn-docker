@@ -1,5 +1,3 @@
-FROM node:slim
-
-RUN npm install -g yarn
+FROM node
 
 ENTRYPOINT ["/usr/local/bin/yarn"]
