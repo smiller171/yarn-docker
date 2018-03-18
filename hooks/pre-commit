@@ -1,0 +1,20 @@
+#!/bin/bash
+list=$(curl -s https://hub.docker.com/v2/repositories/library/node/tags/?page_size=500 | jq -r '.results|.[]|.name' | grep -v onbuild | grep -v latest | 
+sort)
+branch=$(git rev-parse --abbrev-ref HEAD)
+create_branch() {
+  tag=$1
+  branch=$2
+  if git rev-parse --verify ${tag} > /dev/null
+  then
+    echo "branch ${tag} exists"
+  else
+    git checkout "${branch}" > /dev/null
+    git checkout -B ${tag}
+    sed -i "" "s/FROM node/FROM node:${tag}/g" Dockerfile
+    git commit --no-verify -am 'update tag'
+  fi
+}
+export -f create_branch
+echo $list | xargs -P 1 -n 1 -I {} bash -c 'create_branch "$@"' _ {} "${branch}"
+git checkout "${branch}"
