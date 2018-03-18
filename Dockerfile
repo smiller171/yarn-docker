@@ -1,3 +1,3 @@
-FROM node
+FROM node:chakracore
 
 ENTRYPOINT ["/usr/local/bin/yarn"]
