@@ -2,7 +2,8 @@
 [![Build Status](https://img.shields.io/docker/build/scottmiller171/yarn.svg)]()
 # Supported tags and respective `Dockerfile` links
 
-Tags should generally match those from the official node image. New builds run when node is updated. Please file an issue if you notice I've fallen behind. `latest` will always be up-to-date
+Tags should generally match those from the official node image. New builds run when node is updated. Please file an issue if you notice I've fallen behind. `latest` will always be up-to-date.  
+Below is a subset of the supported tags. Everything supported by the `node` image _should_ be supported, with the exception of `onbuild` tags.
 
 - [`latest` (*master/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/master/Dockerfile)
 -	[`9` (*9/Dockerfile*)](https://github.com/smiller171/yarn-docker/blob/9/Dockerfile)
