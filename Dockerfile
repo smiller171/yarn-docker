@@ -1,3 +1,3 @@
-FROM node
+FROM node:boron-slim
 
 ENTRYPOINT ["/usr/local/bin/yarn"]
